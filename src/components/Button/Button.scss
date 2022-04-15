@@ -1,0 +1,21 @@
+.button{
+    padding: 0.75em  1em;
+    max-width: fit-content;
+    font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.primary{
+ border-radius: 40px;
+ background-color: var(--purple-mountains-majesty);
+ color: white;
+}
+
+.secondary{
+    background-color: var(--white-lilac);
+    color:var(--sonic-silver);
+    border:1px solid var(--blue-haze);
+    border-radius: 8px;
+}

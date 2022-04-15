@@ -1,0 +1,111 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 3em;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.5);
+    overflow: hidden;
+    height: 100%;
+
+    .sidebar_links_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .sidebar_link{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 1em;
+            gap: 1em;
+
+            svg{
+                path{
+                    stroke: var(--sonic-silver);
+                    stroke-width: 1;
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+
+            .sidebar_link_indicator{
+                width: 5px;
+                height: 5px;
+                background-color: transparent;
+                transition: background-color 0.5s ease-in-out;
+            }
+            &:hover{
+                background-color: #EAE5F9;
+                .sidebar_link_indicator{
+                    width: 5px;
+                    height: 5px;
+                    background-color: var(--butterfly-bush);
+                }    transition: color 0.5s ease-in-out,background-color 0.5s ease-in-out;
+                svg{
+                    path{
+                        stroke: var(--butterfly-bush);
+                        transition: stroke 0.5s ease-in-out;
+                    }
+                }
+                .sidebar_link-title{
+                    color:var(--butterfly-bush);
+                    transition: color 0.5s ease-in-out;
+                }
+            }
+        }
+       
+
+        .active{
+            background-color: #EAE5F9;
+            .sidebar_link_indicator{
+                width: 5px;
+                height: 5px;
+                background-color: var(--butterfly-bush);
+            }
+            svg{
+                path{
+                    stroke: var(--butterfly-bush);
+                }
+            }
+            .sidebar_link-title{
+                color:var(--butterfly-bush);
+            }
+        }
+    }
+
+
+    .sidebar_upload-button{
+        margin: 2em;
+        padding: 1em 2em;
+        border-radius: 12px;
+        background-color: white;
+        box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.5);
+        text-align: center;
+
+        svg{
+            margin: 1em;
+        }
+    }
+
+
+    .sidebar_utility-links-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+
+        .sidebar_utility-link{
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            text-decoration: none;
+            
+        }
+    }
+
+}

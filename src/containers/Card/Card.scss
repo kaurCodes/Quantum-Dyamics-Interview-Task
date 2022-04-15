@@ -1,0 +1,106 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    padding: 2em;
+
+    gap: 1em;
+
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.5);
+
+    .card_title-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .card_details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 1em;
+
+        .card_details {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            width: 100%;
+            gap: 1em;
+
+            .card_detail {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
+
+        .card_limit-details{
+            width: 100%;
+            .card_limit-range {
+                width: 100%;
+                border-radius: 16px;
+                height: 1em;
+                background-color: var(--snuff);
+    
+                .card_limit-spent-percent {
+                    height: 1em;
+                    background-color: var(--dolphin);
+                    position: relative;
+                    border-radius: 16px;
+                    .card_limit-spent {
+                        position: absolute;
+                        top: .65em;
+                        left: 99%;
+                    }
+                }
+    
+    
+            }
+
+            .card_limit-range-value{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+
+            }
+        }
+
+        .card_details-divder{
+        height: 1px;
+        background-color: #E1DBF0;
+        width: 100%;
+        }
+    }
+}
+
+
+.card_overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 1em;
+    gap: 0.5em;
+    border-radius: 4px;
+    z-index: 4;
+    position: absolute;
+
+    right: 1%;
+    background-color: white;
+
+    box-shadow: 0px 1px 4px 0px rgba(116,116,116,0.5);
+
+    .card_overlay-option{
+        padding-right: 1.5em;
+    }
+}

@@ -1,0 +1,70 @@
+.invoices{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    padding: 2em;
+
+    gap: 1em;
+
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px 0px rgba(116, 116, 116, 0.5);
+
+}
+
+.chips_container{
+    display: flex;
+    gap: 1em;
+}
+
+.invoices_table::-webkit-scrollbar{
+    display: none;
+}
+
+.invoices_table{
+    width: 100%;
+    height: 25em;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        th,td{
+            text-align: left;
+            border-bottom: 0.1em solid #E1DBF0;
+          padding: 1em 0em;
+           margin: -1em;
+           font-size: var(--font-size-xm);
+          font-style: normal;
+          
+          font-weight: 400;
+        }
+           
+        
+    }
+
+     
+    
+}
+
+
+
+tr{
+    color: var(--sonic-silver);
+  font-family: var(--font-family-nunito);
+  
+}
+
+.chip_active{
+    background-color: var(--purple-mountains-majesty);
+    padding: 0.5em 0.8em;
+    border-radius: 0.4em ;
+}
+
+.chip_{
+    background-color: var(--blue-haze);
+    padding: 0.5em 0.8em;
+    border-radius: 0.4em ;
+}

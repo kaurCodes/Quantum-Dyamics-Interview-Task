@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+
+:root { 
+  --blue-haze: #c6bfd8;
+  --butterfly-bush: #655093;
+  --dolphin: #695e7e;
+  --heavy-metal: #2c2c2c;
+  --purple-heart: #6032bd;
+  --purple-mountains-majesty: #9788bf;
+  --snuff: #ddd9e8;
+  --sonic-silver: #747474;
+  --true-v: #907ad6;
+  --white: #ffffff;
+  --white-lilac: #faf8fe;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-xm: 14px;
+  --font-size-s: 11px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 21px;
+  --font-size-xxxl: 38px;
+  --font-size-xxxxl: 44px;
+ 
+  --font-family-nunito: 'Nunito', sans-serif;
+}
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: var(--font-family-nunito);
+}
+
+
+.nunito-normal-dolphin-16px {
+  color: var(--dolphin);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-dolphin-18px {
+  color: var(--dolphin);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nunito-normal-purple-mountains-majesty-20px {
+  color: var(--purple-mountains-majesty);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-heavy-metal-16px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-blue-haze-11px {
+  color: var(--blue-haze);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-purple-mountains-majesty-14px {
+  color: var(--purple-mountains-majesty);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-purple-mountains-majesty-18px {
+  color: var(--purple-mountains-majesty);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-semi-bold-butterfly-bush-20px {
+  color: var(--butterfly-bush);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nunito-semi-bold-butterfly-bush-38px {
+  color: var(--butterfly-bush);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nunito-normal-sonic-silver-11px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-sonic-silver-14px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xm);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-sonic-silver-16px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-dolphin-20px {
+  color: var(--dolphin);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nunito-normal-dolphin-38px {
+  color: var(--dolphin);
+  font-family: var(--font-family-nunito);
+  font-size: var(--font-size-xxxl);
+  font-style: bold;
+  font-weight: 600;
+}
+
+.border-1px-snuff {
+  border: 1px solid var(--snuff);
+}
+
+
+
+.border-0-5px-purple-heart {
+  border: 0.5px solid var(--purple-heart);
+}
+
+input[type="text"]{
+  border: none;
+  background: transparent;
+}
